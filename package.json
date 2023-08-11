@@ -16,6 +16,6 @@
 	},
 	"license": "GFDL-1.3",
 	"scripts": {
-		"export": "npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --pdf  --allow-local-files && npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --html --allow-local-files"
+		"export": "npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --pdf  --allow-local-files --theme themes\\CreamTheme.css  && npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --html --allow-local-files --theme themes\\CreamTheme.css"
 	}
 }

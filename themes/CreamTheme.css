@@ -2,17 +2,33 @@
 
 @import 'default';
 
-@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+@font-face {
+	font-family: 'Lato';
+	src: url('themes/ttf/Lato-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('themes/ttf/NotoSans-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
 section {
-	font-family: Roboto, sans-serif;
-	background-color: rgb(240, 206, 145);
-	color: #232222;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: wheat;
+	color: #000000;
 	width: 297mm;
 	height: 210mm;
 	padding: 20mm;
 	box-sizing: border-box;
 	page-break-after: always;
+	font-size: 1.6em;
 }
+/* Rest of your CSS code remains unchanged */
+
 section[class*='title'] h1,
 section[class*='full-image'] h1 {
 	font-size: 1.7em;
@@ -36,6 +52,7 @@ h4,
 h5,
 h6 {
 	margin: 0.3em 0;
+	font-family: Lato !important;
 }
 p {
 	margin: 0.1em 0;
@@ -54,17 +71,16 @@ p {
 table {
 	border-collapse: collapse;
 	width: 100%;
+	background-color: transparent !important;
 }
 td,
 th {
-	border: 1px solid #333;
-	padding: 0.5em;
+	border: 1px solid #235634;
+	padding: 0.1em;
 	text-align: left;
 	background-color: transparent !important;
 }
-th {
-	background-color: #eee;
-}
+
 ol,
 ul {
 	padding-left: 1em;
@@ -75,7 +91,6 @@ li {
 	line-height: 110%;
 }
 pre {
-	background-color: #eee;
 	padding: 0.5em;
 }
 code {
@@ -85,7 +100,9 @@ code {
 i,
 em {
 	overflow-x: auto;
-	font-size: 0.7rem;
+	font-size: 0.8em;
+	text-align: center;
+	display: block;
 }
 
 /* Estilo para imágenes incrustadas */
@@ -104,4 +121,42 @@ section.full-image img {
 	object-fit: cover;
 	text-align: center;
 	display: block;
+}
+
+section a {
+	font-family: Lato;
+	font-weight: 800;
+	font-size: 0.9em;
+}
+
+table,
+tr,
+td,
+th {
+	all: unset;
+
+	/* Override contextual styling */
+	border: 1px solid !important;
+	border-color: rgb(201, 139, 45) !important;
+	background: transparent !important;
+	text-align: left !important;
+	font-size: 0.9em !important;
+}
+table {
+	display: table;
+}
+tr {
+	display: table-row;
+}
+td,
+th {
+	display: table-cell;
+}
+
+/* ...and layout freely :) */
+table {
+	width: 100%;
+}
+td {
+	vertical-align: middle;
 }

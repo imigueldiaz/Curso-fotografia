@@ -161,6 +161,50 @@ _Fuentes para ampliar información:_
 
 ---
 
+# 1. Componentes de una Cámara DSLR
+
+| Componente       | Función                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------- |
+| Cuerpo           | Contiene y protege los componentes internos de la cámara                                    |
+| Objetivo         | Captura y enfoca la luz en el sensor                                                        |
+| Espejo           | Refleja la luz hacia el visor óptico y el sensor de enfoque automático                      |
+| Visor óptico     | Permite al fotógrafo ver la escena y componer la imagen                                     |
+| Sensor           | Convierte la luz en una imagen digital                                                      |
+| Pantalla LCD     | Muestra la imagen capturada, los ajustes de la cámara y permite la navegación por los menús |
+| Botón de disparo | Captura la imagen cuando se presiona                                                        |
+| Rueda de control | Permite ajustar los parámetros de la cámara                                                 |
+| Flash integrado  | Proporciona luz adicional en condiciones de poca luz                                        |
+
+---
+
+# 2. Componentes de una Cámara Mirrorless
+
+| Componente        | Función                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------- |
+| Cuerpo            | Contiene y protege los componentes internos de la cámara                                    |
+| Objetivo          | Captura y enfoca la luz en el sensor                                                        |
+| Sensor            | Convierte la luz en una imagen digital                                                      |
+| Visor electrónico | Muestra una vista previa digital de la escena (en lugar del visor óptico)                   |
+| Pantalla LCD      | Muestra la imagen capturada, los ajustes de la cámara y permite la navegación por los menús |
+| Botón de disparo  | Captura la imagen cuando se presiona                                                        |
+| Rueda de control  | Permite ajustar los parámetros de la cámara                                                 |
+| Flash integrado   | Proporciona luz adicional en condiciones de poca luz (opcional en algunos modelos)          |
+
+---
+
+# 3. Comparativa: Cámara DSLR vs. Cámara Mirrorless
+
+| Característica         | Cámara DSLR                             | Cámara Mirrorless                                               |
+| ---------------------- | --------------------------------------- | --------------------------------------------------------------- |
+| Tamaño y peso          | Generalmente más grandes y pesadas      | Más compactas y ligeras                                         |
+| Visor                  | Visor óptico                            | Visor electrónico                                               |
+| Velocidad de enfoque   | Rápida en condiciones de buena luz      | Rápida en condiciones de buena luz, mejora en modelos recientes |
+| Duración de la batería | Mayor duración de la batería            | Menor duración de la batería                                    |
+| Lentes disponibles     | Amplia selección de lentes              | Selección de lentes en crecimiento                              |
+| Accesorios             | Gran cantidad de accesorios disponibles | Menos accesorios disponibles, pero en aumento                   |
+
+---
+
 # 1/3. Funciones Básicas de una Cámara Digital
 
 ## Modos de disparo
@@ -247,6 +291,7 @@ _Fuentes para ampliar información:_
 # Triángulo de Exposición
 
 ![Triángulo de exposición](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Exposure_triangle_-_aperture%2C_shutter_speed_and_ISO.svg/1137px-Exposure_triangle_-_aperture%2C_shutter_speed_and_ISO.svg.png)
+
 _Triángulo de exposición: Apertura, Velocidad de obturación e ISO. Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Exposici%C3%B3n_%28fotograf%C3%ADa%29)\_
 
 ---
@@ -271,9 +316,9 @@ _Triángulo de exposición: Apertura, Velocidad de obturación e ISO. Fuente: [W
 
 # 2/2. Composición y Regla de los Tercios
 
-![Regla de los tercios](./images/ReglaTercios.png)
+![Regla de los tercios](./themes/images/ReglaTercios.png)
 
-_Pie de imagen: Ejemplo de la regla de los tercios. Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Regla_de_los_tercios)_
+_Ejemplo de la regla de los tercios. Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Regla_de_los_tercios)_
 
 _Fuentes para ampliar información:_
 
