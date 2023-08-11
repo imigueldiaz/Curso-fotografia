@@ -14,7 +14,7 @@
 		"name": "Ignacio de Miguel Díaz",
 		"email": "imigueldiaz@gmail.com"
 	},
-	"license": "LGPL-3.0-or-later",
+	"license": "GFDL-1.3",
 	"scripts": {
 		"export": "npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --pdf  --allow-local-files && npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --html --allow-local-files"
 	}
