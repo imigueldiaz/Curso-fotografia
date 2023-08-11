@@ -1,0 +1,107 @@
+/* @theme CreamTheme */
+
+@import 'default';
+
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+section {
+	font-family: Roboto, sans-serif;
+	background-color: rgb(240, 206, 145);
+	color: #232222;
+	width: 297mm;
+	height: 210mm;
+	padding: 20mm;
+	box-sizing: border-box;
+	page-break-after: always;
+}
+section[class*='title'] h1,
+section[class*='full-image'] h1 {
+	font-size: 1.7em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	text-align: center;
+}
+section,
+section * {
+	cursor: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="16" width="16" viewBox="0 0 10 10" %3E%3Ccircle cx="5" cy="5" r="5" fill="red"/%3E%3C/svg%3E'),
+		pointer;
+}
+section[class*='title'] h2 {
+	font-size: 1.2em;
+	margin-top: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0.3em 0;
+}
+p {
+	margin: 0.1em 0;
+	text-align: justify;
+	-ms-text-justify: inter-word;
+
+	text-justify: inter-word;
+
+	/* Prefijos para la propiedad hyphens */
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+
+	/* Prefijos para la propiedad text-justify (solo para Internet Explorer) */
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+td,
+th {
+	border: 1px solid #333;
+	padding: 0.5em;
+	text-align: left;
+	background-color: transparent !important;
+}
+th {
+	background-color: #eee;
+}
+ol,
+ul {
+	padding-left: 1em;
+	margin: 0.3em 0;
+}
+li {
+	margin: 0.25em 0;
+	line-height: 110%;
+}
+pre {
+	background-color: #eee;
+	padding: 0.5em;
+}
+code {
+	font-family: monospace;
+}
+
+i,
+em {
+	overflow-x: auto;
+	font-size: 0.7rem;
+}
+
+/* Estilo para imágenes incrustadas */
+img {
+	max-width: calc(297mm / 4);
+	max-height: calc(210mm / 4);
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+
+section.full-image img {
+	max-width: 250mm;
+	max-height: 150mm;
+	margin: 0 auto;
+	object-fit: cover;
+	text-align: center;
+	display: block;
+}
