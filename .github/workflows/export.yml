@@ -22,7 +22,7 @@ jobs:
               run: npm ci
 
             - name: Export Marp presentation to PDF and HTML
-              run: npx marp Curso_Fotografía_digital.md --pdf Curso_Fotografía_digital.pdf --html Curso_Fotografía_digital.html
+              run: npm run export
 
             - name: Create GitHub Release
               uses: softprops/action-gh-release@v1

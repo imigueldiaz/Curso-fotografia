@@ -271,7 +271,7 @@ _Triángulo de exposición: Apertura, Velocidad de obturación e ISO. Fuente: [W
 
 # 2/2. Composición y Regla de los Tercios
 
-![Regla de los tercios](./ReglaTercios.png)
+![Regla de los tercios](./images/ReglaTercios.png)
 
 _Pie de imagen: Ejemplo de la regla de los tercios. Fuente: [Wikipedia](https://es.wikipedia.org/wiki/Regla_de_los_tercios)_
 

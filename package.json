@@ -1,0 +1,21 @@
+{
+	"name": "curso-fotografia",
+	"version": "1.0.0",
+	"description": "Una presentación introductoria a la fotografía digital para amateurs.",
+	"keywords": [
+		"markdown",
+		"slideshow",
+		"photography",
+		"marp",
+		"marpit",
+		"introduction-to-photography"
+	],
+	"author": {
+		"name": "Ignacio de Miguel Díaz",
+		"email": "imigueldiaz@gmail.com"
+	},
+	"license": "LGPL-3.0-or-later",
+	"scripts": {
+		"export": "npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --pdf  --allow-local-files && npx @marp-team/marp-cli@latest Curso_Fotografía_digital.md --html --allow-local-files"
+	}
+}
