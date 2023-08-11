@@ -29,12 +29,15 @@ jobs:
               run: |
                   git config user.name "GitHub Actions"
                   git config user.email "actions@github.com"
-                  git tag "v${{ github.run_number }}"
-                  git push origin "v${{ github.run_number }}"
+                  TAG_NAME="v${{ github.run_number }}"
+                  echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+                  git tag "$TAG_NAME"
+                  git push origin "$TAG_NAME"
 
             - name: Create GitHub Release
               uses: softprops/action-gh-release@v1
               with:
+                  tag_name: ${{ env.TAG_NAME }}
                   files: |
                       Curso_Fotografía_digital.pdf
                       Curso_Fotografía_digital.html
